@@ -4,13 +4,14 @@
   text-decoration: none;
   list-style: none;
   font-family: 'Overpass', sans-serif;
+  font-size: 0.9rem;
 }
 
 header {
   background: linear-gradient(90deg, rgba(255, 143, 112, 1) 0%, rgba(255, 61, 84, 1) 100%);
   max-width: 100%;
   border-radius: 0px 0px 0px 100px;
-  padding: 80px;
+  padding: 0px 80px;
 }
 
 .header-content {
@@ -21,6 +22,7 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
+  padding-top: 20px;
   padding-bottom: 100px;
 }
 
@@ -83,6 +85,11 @@ nav li a:hover {
 }
 
 @media(max-width:730px) {
+
+  header {
+    margin-bottom: 80px;
+  }
+
   nav {
     flex-direction: column;
     align-items: center;
