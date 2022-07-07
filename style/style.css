@@ -4,7 +4,7 @@
   text-decoration: none;
   list-style: none;
   font-family: 'Overpass', sans-serif;
-  font-size: 0.9rem;
+  font-size: 1.0rem;
 }
 
 header {
@@ -15,7 +15,7 @@ header {
 }
 
 .header-content {
-  max-width: 1240px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -98,6 +98,7 @@ nav li a:hover {
   nav ul:first-child {
     padding-bottom: 30px;
   }
+
 }
 
 @media (max-width:670px) {
